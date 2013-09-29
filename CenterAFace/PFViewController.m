@@ -19,20 +19,27 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
     
-    UIImage *resizedImage = [UIImage imageWithImage:[UIImage imageNamed:@"smile4.jpg"] scaledToSize:CGSizeMake(self.view.bounds.size.width, self.view.bounds.size.height)];
+    UIImage *resizedImage = [UIImage imageWithImage:[UIImage imageNamed:@"smile2.jpg"] scaledToSize:CGSizeMake(self.view.bounds.size.width, self.view.bounds.size.height)];
 
     
     UIImageView *imageView = [[UIImageView alloc] initWithImage:resizedImage];
     [self.view addSubview:imageView];
-    
-    
-    UIImage *face = [UIImage cropFaceFromImage:resizedImage];
-    
-    UIImageView *imageView2 = [[UIImageView alloc] initWithImage:face];
-    imageView2.center = self.view.center;
-    [self.view addSubview:imageView2];
+
+    [UIView animateWithDuration:4.0
+                     animations:^{
+                         imageView.alpha = 0.0;
+                         UIImage *face = [UIImage cropFaceFromImage:resizedImage];
+                         UIImageView *imageView2 = [[UIImageView alloc] initWithImage:face];
+                         imageView2.center = self.view.center;
+                         [self.view addSubview:imageView2];
+                     } completion:^(BOOL finished) {
+                         [UIView animateWithDuration:5.0
+                                          animations:^{
+                                              [imageView removeFromSuperview];
+                                          }];
+                     }];
+
 }
 
 @end
