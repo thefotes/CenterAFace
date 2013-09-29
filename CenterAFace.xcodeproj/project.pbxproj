@@ -21,6 +21,12 @@
 		C988E95717F8D80200E9A423 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C988E93917F8D80200E9A423 /* UIKit.framework */; };
 		C988E95F17F8D80200E9A423 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C988E95D17F8D80200E9A423 /* InfoPlist.strings */; };
 		C988E96117F8D80200E9A423 /* CenterAFaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C988E96017F8D80200E9A423 /* CenterAFaceTests.m */; };
+		C988E96E17F8DBAF00E9A423 /* smile1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C988E96D17F8DBAF00E9A423 /* smile1.jpg */; };
+		C988E97017F8DBB300E9A423 /* smile2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C988E96F17F8DBB300E9A423 /* smile2.jpg */; };
+		C988E97317F8E0B600E9A423 /* smile3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C988E97117F8E0B600E9A423 /* smile3.jpg */; };
+		C988E97417F8E0B600E9A423 /* smile4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C988E97217F8E0B600E9A423 /* smile4.jpg */; };
+		C988E97617F8E0BA00E9A423 /* smile5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C988E97517F8E0BA00E9A423 /* smile5.jpg */; };
+		C988E97917F8E18D00E9A423 /* UIImage+ScaleImageToSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C988E97817F8E18D00E9A423 /* UIImage+ScaleImageToSize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,13 @@
 		C988E95C17F8D80200E9A423 /* CenterAFaceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CenterAFaceTests-Info.plist"; sourceTree = "<group>"; };
 		C988E95E17F8D80200E9A423 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C988E96017F8D80200E9A423 /* CenterAFaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterAFaceTests.m; sourceTree = "<group>"; };
+		C988E96D17F8DBAF00E9A423 /* smile1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile1.jpg; sourceTree = "<group>"; };
+		C988E96F17F8DBB300E9A423 /* smile2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile2.jpg; sourceTree = "<group>"; };
+		C988E97117F8E0B600E9A423 /* smile3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile3.jpg; sourceTree = "<group>"; };
+		C988E97217F8E0B600E9A423 /* smile4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile4.jpg; sourceTree = "<group>"; };
+		C988E97517F8E0BA00E9A423 /* smile5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile5.jpg; sourceTree = "<group>"; };
+		C988E97717F8E18D00E9A423 /* UIImage+ScaleImageToSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScaleImageToSize.h"; sourceTree = "<group>"; };
+		C988E97817F8E18D00E9A423 /* UIImage+ScaleImageToSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScaleImageToSize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +130,8 @@
 				C988E94717F8D80200E9A423 /* Main.storyboard */,
 				C988E94A17F8D80200E9A423 /* PFViewController.h */,
 				C988E94B17F8D80200E9A423 /* PFViewController.m */,
+				C988E97717F8E18D00E9A423 /* UIImage+ScaleImageToSize.h */,
+				C988E97817F8E18D00E9A423 /* UIImage+ScaleImageToSize.m */,
 				C988E94D17F8D80200E9A423 /* Images.xcassets */,
 				C988E93C17F8D80200E9A423 /* Supporting Files */,
 			);
@@ -126,6 +141,11 @@
 		C988E93C17F8D80200E9A423 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C988E97517F8E0BA00E9A423 /* smile5.jpg */,
+				C988E97117F8E0B600E9A423 /* smile3.jpg */,
+				C988E97217F8E0B600E9A423 /* smile4.jpg */,
+				C988E96F17F8DBB300E9A423 /* smile2.jpg */,
+				C988E96D17F8DBAF00E9A423 /* smile1.jpg */,
 				C988E93D17F8D80200E9A423 /* CenterAFace-Info.plist */,
 				C988E93E17F8D80200E9A423 /* InfoPlist.strings */,
 				C988E94117F8D80200E9A423 /* main.m */,
@@ -229,8 +249,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C988E97617F8E0BA00E9A423 /* smile5.jpg in Resources */,
+				C988E96E17F8DBAF00E9A423 /* smile1.jpg in Resources */,
 				C988E94E17F8D80200E9A423 /* Images.xcassets in Resources */,
 				C988E94017F8D80200E9A423 /* InfoPlist.strings in Resources */,
+				C988E97417F8E0B600E9A423 /* smile4.jpg in Resources */,
+				C988E97017F8DBB300E9A423 /* smile2.jpg in Resources */,
+				C988E97317F8E0B600E9A423 /* smile3.jpg in Resources */,
 				C988E94917F8D80200E9A423 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +277,7 @@
 			files = (
 				C988E94617F8D80200E9A423 /* PFAppDelegate.m in Sources */,
 				C988E94C17F8D80200E9A423 /* PFViewController.m in Sources */,
+				C988E97917F8E18D00E9A423 /* UIImage+ScaleImageToSize.m in Sources */,
 				C988E94217F8D80200E9A423 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +487,7 @@
 				C988E96617F8D80200E9A423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C988E96717F8D80200E9A423 /* Build configuration list for PBXNativeTarget "CenterAFaceTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +496,7 @@
 				C988E96917F8D80200E9A423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

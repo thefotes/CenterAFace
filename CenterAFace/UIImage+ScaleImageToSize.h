@@ -1,5 +1,5 @@
 //
-//  PFViewController.h
+//  UIImage+ScaleImageToSize.h
 //  CenterAFace
 //
 //  Created by Peter Foti on 9/29/13.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PFViewController : UIViewController
+@interface UIImage (ScaleImageToSize)
 
 + (UIImage *)imageWithImage:(UIImage *)image scaledToSize:(CGSize)size;
 
