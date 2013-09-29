@@ -1,5 +1,5 @@
 //
-//  PFViewController.h
+//  UIImage+CropFaceOutOfImage.h
 //  CenterAFace
 //
 //  Created by Peter Foti on 9/29/13.
@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PFViewController : UIViewController
+@interface UIImage (CropFaceOutOfImage)
 
++ (UIImage *)cropFaceFromImage:(UIImage *)image;
 
 @end

@@ -27,6 +27,7 @@
 		C988E97417F8E0B600E9A423 /* smile4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C988E97217F8E0B600E9A423 /* smile4.jpg */; };
 		C988E97617F8E0BA00E9A423 /* smile5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C988E97517F8E0BA00E9A423 /* smile5.jpg */; };
 		C988E97917F8E18D00E9A423 /* UIImage+ScaleImageToSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C988E97817F8E18D00E9A423 /* UIImage+ScaleImageToSize.m */; };
+		C988E97C17F8E3AD00E9A423 /* UIImage+CropFaceOutOfImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C988E97B17F8E3AD00E9A423 /* UIImage+CropFaceOutOfImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		C988E97517F8E0BA00E9A423 /* smile5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile5.jpg; sourceTree = "<group>"; };
 		C988E97717F8E18D00E9A423 /* UIImage+ScaleImageToSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScaleImageToSize.h"; sourceTree = "<group>"; };
 		C988E97817F8E18D00E9A423 /* UIImage+ScaleImageToSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScaleImageToSize.m"; sourceTree = "<group>"; };
+		C988E97A17F8E3AD00E9A423 /* UIImage+CropFaceOutOfImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropFaceOutOfImage.h"; sourceTree = "<group>"; };
+		C988E97B17F8E3AD00E9A423 /* UIImage+CropFaceOutOfImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CropFaceOutOfImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				C988E94717F8D80200E9A423 /* Main.storyboard */,
 				C988E94A17F8D80200E9A423 /* PFViewController.h */,
 				C988E94B17F8D80200E9A423 /* PFViewController.m */,
+				C988E97A17F8E3AD00E9A423 /* UIImage+CropFaceOutOfImage.h */,
+				C988E97B17F8E3AD00E9A423 /* UIImage+CropFaceOutOfImage.m */,
 				C988E97717F8E18D00E9A423 /* UIImage+ScaleImageToSize.h */,
 				C988E97817F8E18D00E9A423 /* UIImage+ScaleImageToSize.m */,
 				C988E94D17F8D80200E9A423 /* Images.xcassets */,
@@ -275,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C988E97C17F8E3AD00E9A423 /* UIImage+CropFaceOutOfImage.m in Sources */,
 				C988E94617F8D80200E9A423 /* PFAppDelegate.m in Sources */,
 				C988E94C17F8D80200E9A423 /* PFViewController.m in Sources */,
 				C988E97917F8E18D00E9A423 /* UIImage+ScaleImageToSize.m in Sources */,
